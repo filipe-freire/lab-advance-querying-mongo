@@ -29,7 +29,7 @@
 
 ### 6. All the companies that don't include the `partners` field.
 
-<!-- Your Code Goes Here -->
+{"partners": {\$exists: false}}
 
 ### 7. All the companies that have a null type of value on the `category_code` field.
 
