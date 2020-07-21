@@ -19,7 +19,7 @@
 
 ### 4. All the companies that had a Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the `name` and `ipo` fields.
 
-{"ipo.valuation_amount": {\$gt: 100000000}}
+{"ipo.valuation_amount": {\$gt: 100000000}, "founded_year": {\$lt: 2010}}
 {"project": {"name": 1, "ipo": 1}}
 
 <!-- Your Code Goes Here -->
